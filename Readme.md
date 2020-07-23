@@ -25,3 +25,5 @@ go get -u github.com/holajiawei/skiplist
 |BazookaMusic/goskiplist|√| ×|√| https://github.com/BazookaMusic/goskiplist|
 |huandu/skiplist|×|× |√| https://github.com/huandu/skiplist|
 
+## Ref
+Lock-Free Linked Lists and Skip Lists. M Fomitchev
