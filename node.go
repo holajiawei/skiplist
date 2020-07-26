@@ -37,3 +37,9 @@ func (e *Node) casValue(from interface{}, to unsafe.Pointer) bool {
 	}
 	return atomic.CompareAndSwapPointer(&e.value, old, to)
 }
+
+type Index struct {
+	node  unsafe.Pointer
+	down  unsafe.Pointer
+	right unsafe.Pointer
+}
